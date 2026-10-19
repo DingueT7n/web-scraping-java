@@ -1,0 +1,27 @@
+# Environment / editor
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.idea/
+.vscode/
+# Trained outputs and caches
+*.h5
+*.keras
+*.pt
+*.pth
+*.ckpt
+checkpoints/
+logs/
+models/
+__pycache__/
+# Avoid publishing large/unreviewed datasets and serialized environments
+*.RData
+*.rds
+# generated data exports
+articles.csv
+# patent/abstract scraped corpus from original RAR: redistribution unverified
+projects/undated/scientific-article-text-preprocessing/json
+# common local dataset paths
+data/raw/
